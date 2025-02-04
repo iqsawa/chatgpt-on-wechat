@@ -1,29 +1,21 @@
 {
   "channel_type": "wx",
-  "model": "",
-  "open_ai_api_key": "YOUR API KEY",
-  "claude_api_key": "YOUR API KEY",
-  "text_to_image": "dall-e-2",
-  "voice_to_text": "openai",
-  "text_to_voice": "openai",
+  "model": "glm-4-flash",
+  "zhipu_ai_api_key": "bfed2dae3e3e47139636ae32c9c5c77f.bTTs8RGpkMgXFGvn",
+  "zhipu_ai_api_base": "https://open.bigmodel.cn/api/paas/v4"
   "proxy": "",
   "hot_reload": false,
   "single_chat_prefix": [
-    "bot",
-    "@bot"
+    ""
   ],
-  "single_chat_reply_prefix": "[bot] ",
+  "single_chat_reply_prefix": "[AI] ",
   "group_chat_prefix": [
-    "@bot"
+    ""
   ],
   "group_name_white_list": [
-    "ChatGPT测试群",
-    "ChatGPT测试群2"
+    ["ALL_GROUP"]
   ],
-  "image_create_prefix": [
-    "画"
-  ],
-  "speech_recognition": true,
+  "speech_recognition": false,
   "group_speech_recognition": false,
   "voice_reply_voice": false,
   "conversation_max_tokens": 2500,
